@@ -1,0 +1,36 @@
+#app {
+    min-height: calc(100vh - 344px);
+}
+
+#sidebar {
+    top: 25px;
+    position: sticky;
+}
+
+.place {
+    padding: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.btn.round {
+    border-radius: 30px;
+}
+
+footer {
+    font-family: 'Roboto';
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 2rem;
+    }
+}
